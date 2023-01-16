@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e396e1e8-fb81-478b-be5a-118fe75e6cec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-28c922983a19c45ec8d7b8bac28f21b9" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/FSTimeGet-28c922983a19c45ec8d7b8bac28f21b9" afterDir="false" />
+    <list default="true" id="e396e1e8-fb81-478b-be5a-118fe75e6cec" name="Changes" comment="add skybox plugin">
+      <change beforePath="$PROJECT_DIR$/Temp/FSTimeGet-2fb2b6cbe93614783b75e624f4b9f4e1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673887651100</updated>
       <workItem from="1673887654440" duration="2197000" />
-      <workItem from="1673894748820" duration="20000" />
+      <workItem from="1673894748820" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="add zenject">
       <created>1673888348899</created>
@@ -90,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673888348899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add skybox plugin">
+      <created>1673896000313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673896000313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
@@ -110,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add zenject" />
-    <option name="LAST_COMMIT_MESSAGE" value="add zenject" />
+    <MESSAGE value="add skybox plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="add skybox plugin" />
   </component>
 </project>
