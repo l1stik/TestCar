@@ -2,101 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e396e1e8-fb81-478b-be5a-118fe75e6cec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_03_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_11_morning_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_15_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_Anime_18_day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_01_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Materials/Sky_LowPoly_02_Night_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_03_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_11_morning_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_15_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_Anime_18_day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_01_Day_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Materials/Sky_LowPoly_02_Night_a.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/ReadMe.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/ReadMe.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Scene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Imorts/Free Stylized Skybox/Scene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg-inputdata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_derived" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_fsmtime" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_fsmtime" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.ref.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PropertyDatabase_1265138678" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/PropertyDatabase_2066312223" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker3.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,16 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/listik/Desktop/Bear/TestCar/TestCar/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Installers/InfrastructureInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/349809aa53ef4fa9a86ab20512c3bbd41a000/a4/9d183f42/CharacterController.cs" root0="SKIP_HIGHLIGHTING" />
@@ -132,17 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/2021.3.11f1/Unity.app/Contents/MacOS/Unity" />
@@ -183,6 +116,7 @@
       <updated>1673887651100</updated>
       <workItem from="1673887654440" duration="2197000" />
       <workItem from="1673894748820" duration="983000" />
+      <workItem from="1673914473346" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="add zenject">
       <created>1673888348899</created>
@@ -216,6 +150,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add zenject" />
     <MESSAGE value="add skybox plugin" />
