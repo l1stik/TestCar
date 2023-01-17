@@ -1,6 +1,7 @@
 using UnityEngine;
 
-namespace Core {
+namespace Core 
+{
     public class InputController : MonoBehaviour
     {
         public float speed;
@@ -16,7 +17,8 @@ namespace Core {
             //transform.LookAt(transform.forward);
         }
 
-        private void Update() {
+        private void Update()
+        {
             transform.rotation = Quaternion.Euler(0, 0, variableJoystick.Horizontal);
         }
     }

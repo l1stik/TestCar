@@ -3,11 +3,15 @@ using UnityEngine;
 namespace Core.ScriptableObjects 
 {
     [CreateAssetMenu]
-    public class CarData : ScriptableObject {
+    public class CarData : ScriptableObject 
+    {
         
-        [SerializeField] private GameObject _carPrefab;
-        [SerializeField] private float _health;
-        [SerializeField] private float _damage;
+        [SerializeField] 
+        private GameObject _carPrefab;
+        [SerializeField] 
+        private float _health;
+        [SerializeField] 
+        private float _damage;
         
         public GameObject CarPrefab => _carPrefab;
         public float Health => _health;

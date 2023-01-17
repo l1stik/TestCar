@@ -4,7 +4,8 @@ using Core.ScriptableObjects;
 using UnityEngine;
 using Zenject;
 
-namespace Core {
+namespace Core 
+{
     public class CarsController : MonoBehaviour
     {
         [Inject] 
@@ -16,7 +17,8 @@ namespace Core {
         [Inject]
         private CarsView _carsView;
 
-        public void Start() {
+        public void Start() 
+        {
             _carsView.OnNextCarButtonClick.AddListener(GenerateNextCar);
             GenerateNextCar();
         }
@@ -27,7 +29,8 @@ namespace Core {
         private List<GameObject> _poolInstancesCar = new();
 
         private void GenerateNextCar() {
-            if (_currentCarIndex > _carsDataHolder.CarsDataCount) {
+            if (_currentCarIndex > _carsDataHolder.CarsDataCount) 
+            {
                 _currentCarIndex = 0;
             }
 
@@ -36,7 +39,8 @@ namespace Core {
             var carData = _carsDataHolder.CarsData[_currentCarIndex];
 
             var carFromPool = _poolInstancesCar.Find(x => x.name.Contains(carData.CarPrefab.name));
-            if (carFromPool == null) {
+            if (carFromPool == null) 
+            {
                 var car = UnityEngine.Object.Instantiate(carData.CarPrefab);
                 
                 var carTransform = car.transform;
@@ -46,7 +50,8 @@ namespace Core {
                 
                 _poolInstancesCar.Add(car);
                 _currentCarGameObject = car;
-            } else {
+            } else 
+            {
                 carFromPool.SetActive(true);
                 _currentCarGameObject = carFromPool;
             }
@@ -57,7 +62,8 @@ namespace Core {
             _carsView.ShowNextCar(carData.Health.ToString(), carData.Damage.ToString());
         }
 
-        ~CarsController() {
+        private  void OnDestroy() 
+        {
             _carsView.OnNextCarButtonClick.RemoveListener(GenerateNextCar);
         }
     }

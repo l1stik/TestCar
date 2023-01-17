@@ -3,8 +3,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Core {
-    public class CarsView : MonoBehaviour {
+namespace Core 
+{
+    public class CarsView : MonoBehaviour 
+    {
         
         [SerializeField] 
         private Button _chooseCarButton;
@@ -24,27 +26,31 @@ namespace Core {
         [HideInInspector] 
         public UnityEvent OnNextCarButtonClick = new UnityEvent();
 
-        private void Awake() {
+        private void Awake() 
+        {
             _chooseCarButton.onClick.AddListener(OnChooseCarButtonClickInvoke);
             _nextCarButton.onClick.AddListener(OnNextCarButtonClickInvoke);
         }
 
-        private void OnChooseCarButtonClickInvoke() {
+        private void OnChooseCarButtonClickInvoke() 
+        {
             OnChooseCarButtonClick?.Invoke();
         }
         
-        private void OnNextCarButtonClickInvoke() {
+        private void OnNextCarButtonClickInvoke() 
+        {
             OnNextCarButtonClick?.Invoke();
         }
 
-        public void ShowNextCar(string healthValue, string damageValue) {
-
+        public void ShowNextCar(string healthValue, string damageValue)
+        {
             _healthText.text = healthValue;
             _damageText.text = damageValue;
 
         }
         
-        private void OnDestroy() {
+        private void OnDestroy() 
+        {
             _chooseCarButton.onClick.RemoveListener(OnChooseCarButtonClickInvoke);
             _nextCarButton.onClick.RemoveListener(OnNextCarButtonClickInvoke);
         }

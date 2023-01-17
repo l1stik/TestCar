@@ -1,7 +1,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Core.ScriptableObjects {
+namespace Core.ScriptableObjects 
+{
     
     [CreateAssetMenu]
     public class CarsDataHolder : ScriptableObject 
