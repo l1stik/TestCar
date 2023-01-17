@@ -62,15 +62,9 @@ namespace Core.Ui
             _currentCarData = _carsDataHolder.CarsData[_currentCarIndex];
 
             var carFromPool = _poolInstancesCar.Find(x => x.name.Contains(_currentCarData.CarPrefab.name));
-            if (carFromPool == null) 
-            {
-                var car = UnityEngine.Object.Instantiate(_currentCarData.CarPrefab);
-                
-                var carTransform = car.transform;
-                carTransform.SetParent(_carRenderSystem.CarPlaceForRender);
-                carTransform.rotation = _carRenderSystem.CarPlaceForRender.rotation;
-                carTransform.position = _carRenderSystem.CarPlaceForRender.position;
-                
+            if (carFromPool == null) {
+
+                var car = SpawnCarForDisplay(_currentCarData.CarPrefab);
                 _poolInstancesCar.Add(car);
                 _currentCarGameObject = car;
             } else 
@@ -83,6 +77,17 @@ namespace Core.Ui
             _currentCarGameObject.transform.rotation = _carRenderSystem.CarPlaceForRender.rotation;
 
             _displayedCarsView.ShowNextCar(_currentCarData.Health.ToString(), _currentCarData.Damage.ToString());
+        }
+
+        private GameObject SpawnCarForDisplay(GameObject carPrefab) {
+            var car = UnityEngine.Object.Instantiate(carPrefab);
+                
+            var carTransform = car.transform;
+            carTransform.SetParent(_carRenderSystem.CarPlaceForRender);
+            carTransform.rotation = _carRenderSystem.CarPlaceForRender.rotation;
+            carTransform.position = _carRenderSystem.CarPlaceForRender.position;
+            
+            return car;
         }
 
         private  void OnDestroy() 
