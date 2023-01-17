@@ -2,6 +2,7 @@ using Core.Car;
 using Core.Enemy;
 using Core.ScriptableObjects;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Zenject;
 
 namespace Core.Field 
@@ -27,6 +28,12 @@ namespace Core.Field
             car.transform.position = _placeForSpawnCar.position;
             car.GetComponent<CarController>().Init();
             _diContainer.InstantiateComponent<InputController>(car);
+        }
+        
+        private void OnTriggerExit(Collider other) {
+            if (other.gameObject.tag.Contains("Car")) {
+                SceneManager.LoadScene(0);
+            }
         }
     }
 }
