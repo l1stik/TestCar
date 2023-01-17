@@ -3,11 +3,10 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace Core 
+namespace Core.Ui 
 {
-    public class CarsView : MonoBehaviour 
+    public class DisplayedCarsView : MonoBehaviour 
     {
-        
         [SerializeField] 
         private Button _chooseCarButton;
         

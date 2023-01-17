@@ -1,12 +1,11 @@
 using System.Collections.Generic;
-using Core.Car;
 using Core.ScriptableObjects;
 using UnityEngine;
 using Zenject;
 
-namespace Core 
+namespace Core.Ui 
 {
-    public class CarsController : MonoBehaviour
+    public class DisplayedCarsController : MonoBehaviour
     {
         [Inject] 
         private CarRenderSystem _carRenderSystem;
@@ -15,11 +14,11 @@ namespace Core
         private CarsDataHolder _carsDataHolder;
 
         [Inject]
-        private CarsView _carsView;
+        private DisplayedCarsView _displayedCarsView;
 
         public void Start() 
         {
-            _carsView.OnNextCarButtonClick.AddListener(GenerateNextCar);
+            _displayedCarsView.OnNextCarButtonClick.AddListener(GenerateNextCar);
             GenerateNextCar();
         }
         
@@ -59,12 +58,12 @@ namespace Core
             _currentCarIndex++;
             _currentCarGameObject.transform.rotation = _carRenderSystem.CarPlaceForRender.rotation;
 
-            _carsView.ShowNextCar(carData.Health.ToString(), carData.Damage.ToString());
+            _displayedCarsView.ShowNextCar(carData.Health.ToString(), carData.Damage.ToString());
         }
 
         private  void OnDestroy() 
         {
-            _carsView.OnNextCarButtonClick.RemoveListener(GenerateNextCar);
+            _displayedCarsView.OnNextCarButtonClick.RemoveListener(GenerateNextCar);
         }
     }
 }

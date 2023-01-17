@@ -1,8 +1,9 @@
 using UnityEngine;
 
-namespace Core.Car {
-    public class CarRenderSystem : MonoBehaviour {
-      
+namespace Core.Ui 
+{
+    public class CarRenderSystem : MonoBehaviour 
+    {
         [SerializeField] 
         private Transform _carPlace;
         
@@ -11,10 +12,9 @@ namespace Core.Car {
         
         public Transform CarPlaceForRender => _carPlace;
         
-        private void Update() {
+        private void Update() 
+        {
             _carPlace.Rotate(0, _carRotationSpeed * Time.deltaTime, 0);
         }
-        
-        
     }
 }

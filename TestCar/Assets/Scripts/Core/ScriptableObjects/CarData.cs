@@ -5,7 +5,6 @@ namespace Core.ScriptableObjects
     [CreateAssetMenu]
     public class CarData : ScriptableObject 
     {
-        
         [SerializeField] 
         private GameObject _carPrefab;
         [SerializeField] 

@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 1044241572086130380}
   - component: {fileID: 375545350830947445}
   - component: {fileID: 375545350830947403}
+  - component: {fileID: 8662563880729429211}
   m_Layer: 7
   m_Name: Free Racing Car Blue Variant
   m_TagString: Untagged
@@ -149,6 +150,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2125893, y: 1.7501719, z: 4.7129164}
   m_Center: {x: -0.0018863678, y: 0.84296954, z: -0.013212204}
+--- !u!114 &8662563880729429211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375545350830947446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0069aa889f04c4c898ab325f6d0ac82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  variableJoystick: {fileID: 0}
+  rb: {fileID: 375545350830947445}
 --- !u!1 &1228175843949410322
 GameObject:
   m_ObjectHideFlags: 0

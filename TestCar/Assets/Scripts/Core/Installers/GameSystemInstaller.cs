@@ -1,5 +1,6 @@
-using Core.Car;
+using Core.Ui;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Core.Installers {
     public class GameSystemInstaller : BaseMonoInstaller {
@@ -7,18 +8,18 @@ namespace Core.Installers {
         [SerializeField]
         private CarRenderSystem _carRenderSystem;
         
-        [SerializeField]
-        private CarsView _carsView;
+        [FormerlySerializedAs("_carsView")] [SerializeField]
+        private DisplayedCarsView displayedCarsView;
         
-        [SerializeField]
-        private CarsController _carsController;
+        [FormerlySerializedAs("_carsController")] [SerializeField]
+        private DisplayedCarsController displayedCarsController;
         
         public override void InstallBindings() {
 
             BindObjectFromInstance(_carRenderSystem);
             
-            BindObjectFromInstance(_carsView);
-            BindObjectFromInstance(_carsController);
+            BindObjectFromInstance(displayedCarsView);
+            BindObjectFromInstance(displayedCarsController);
         }
     }
 }

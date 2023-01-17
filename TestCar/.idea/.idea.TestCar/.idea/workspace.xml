@@ -2,26 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e396e1e8-fb81-478b-be5a-118fe75e6cec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ui.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ui/HealthBar.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ui/HealthBar.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Components.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Components/HealthBar.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Components/HealthBar.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemyController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemyController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemyView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemyView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestCar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cars/Free Racing Car Blue Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cars/Free Racing Car Blue Variant.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarRenderSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/CarRenderSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Car/CarRenderSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/CarRenderSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/DisplayedCarsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/DisplayedCarsController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/DisplayedCarsView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/CarsView.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Ui/DisplayedCarsView.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesGenerator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesGenerator.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/InputController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Installers/GameSystemInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Installers/GameSystemInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarsDataHolder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/CarsDataHolder.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/DtoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ScriptableObjects/DtoInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg-inputdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg-inputdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_derived" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/1300b0aEDbg.dag_derived" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/TundraBuildState.state.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.ref.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.ref.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/artifacts/1300b0aEDbg.dag/Assembly-CSharp.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler0.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/backend_profiler1.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/backend_profiler1.traceevents" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/buildprogram0.traceevents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/fullprofile.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/fullprofile.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.digestcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Bee/tundra.log.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Bee/tundra.log.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/Search/transactions.db" beforeDir="false" afterPath="$PROJECT_DIR$/Library/Search/transactions.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/37/375fdb7f9e32f2c06dab5ee24a1340b3.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/PrefabStageHierarchy/37/375fdb7f9e32f2c06dab5ee24a1340b3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/com.unity.ide.rider/PersistedState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker6.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/PropertyDatabase_1265138678" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Temp/PropertyDatabase_2066312223" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +72,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Imorts/Joystick Pack/Examples/JoystickPlayerExample.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Enemy/EnemiesGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Installers/InfrastructureInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/MovementController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/obj/Debug/.NETFramework,Version=v4.7.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -81,10 +120,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="28600">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="28600" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -103,7 +142,8 @@
       <workItem from="1673887654440" duration="2197000" />
       <workItem from="1673894748820" duration="983000" />
       <workItem from="1673914473346" duration="4490000" />
-      <workItem from="1673920096239" duration="949000" />
+      <workItem from="1673920096239" duration="1398000" />
+      <workItem from="1673939670832" duration="1291000" />
     </task>
     <task id="LOCAL-00001" summary="add zenject">
       <created>1673888348899</created>

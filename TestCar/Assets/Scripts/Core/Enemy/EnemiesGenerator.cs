@@ -4,7 +4,7 @@ using UnityEngine;
 using Random = UnityEngine.Random;
 
 namespace Core.Enemy {
-    public class EnemiesController : MonoBehaviour 
+    public class EnemiesGenerator : MonoBehaviour 
     {
         [SerializeField] 
         private GameObject _enemyPrefab;
