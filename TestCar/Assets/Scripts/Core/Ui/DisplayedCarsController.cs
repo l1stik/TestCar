@@ -28,27 +28,30 @@ namespace Core.Ui
         
         public void Start() 
         {
-            _displayedCarsView.OnNextCarButtonClick.AddListener(GenerateNextCar);
+            _displayedCarsView.OnNextCarButtonClick.AddListener(ShowNextCar);
             _displayedCarsView.OnChooseCarButtonClick.AddListener(StartGame);
-            GenerateNextCar();
+            ShowNextCar();
         }
 
-        private void StartGame() {
+        private void StartGame() 
+        {
             _displayedCarsView.Hide();
             ClearCarsPoolWithDestroy();
             
             _fieldController.StartGame(_currentCarData);
         }
 
-        private void ClearCarsPoolWithDestroy() {
-            foreach (var car in _poolInstancesCar) {
+        private void ClearCarsPoolWithDestroy() 
+        {
+            foreach (var car in _poolInstancesCar)
+            {
                 Destroy(car);
-                //Destroy(_carRenderSystem.CarPlaceForRender.GetChild(0));
             }
             _poolInstancesCar.Clear();
         }
         
-        private void GenerateNextCar() {
+        private void ShowNextCar() 
+        {
             if (_currentCarIndex > _carsDataHolder.CarsDataCount) 
             {
                 _currentCarIndex = 0;
@@ -85,7 +88,7 @@ namespace Core.Ui
         private  void OnDestroy() 
         {
             _displayedCarsView.OnChooseCarButtonClick.RemoveListener(StartGame);
-            _displayedCarsView.OnNextCarButtonClick.RemoveListener(GenerateNextCar);
+            _displayedCarsView.OnNextCarButtonClick.RemoveListener(ShowNextCar);
         }
     }
 }

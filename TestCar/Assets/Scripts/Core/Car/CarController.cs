@@ -3,7 +3,8 @@ using UnityEngine;
 
 namespace Core.Car 
 {
-    public class CarController : MonoBehaviour {
+    public class CarController : MonoBehaviour 
+    {
         
         [SerializeField]
         private CarView _carView;
@@ -11,7 +12,8 @@ namespace Core.Car
         [SerializeField]
         private CinemachineVirtualCamera _virtualCamera;
 
-        public void Init() {
+        public void Init()
+        {
             _virtualCamera.gameObject.SetActive(true);
             _virtualCamera.Priority = 1;
         }
