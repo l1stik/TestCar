@@ -378,15 +378,19 @@
 "Assets/Imorts/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Imorts/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Imorts/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/Core/Car/CarRenderSystem.cs"
 "Assets/Scripts/Core/CarsController.cs"
 "Assets/Scripts/Core/CarsView.cs"
 "Assets/Scripts/Core/Enemy/EnemiesController.cs"
 "Assets/Scripts/Core/Helpers/FieldGenerator.cs"
 "Assets/Scripts/Core/InputController.cs"
 "Assets/Scripts/Core/Installers/BaseMonoInstaller.cs"
+"Assets/Scripts/Core/Installers/GameSystemInstaller.cs"
 "Assets/Scripts/Core/Installers/InfrastructureInstaller.cs"
 "Assets/Scripts/Core/MovementController.cs"
 "Assets/Scripts/Core/ScriptableObjects/CarData.cs"
+"Assets/Scripts/Core/ScriptableObjects/CarsDataHolder.cs"
+"Assets/Scripts/Core/ScriptableObjects/DtoInstaller.cs"
 -langversion:9.0
 
 /deterministic
