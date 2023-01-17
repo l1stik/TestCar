@@ -388,7 +388,7 @@
 "Assets/Scripts/Core/Enemy/EnemyController.cs"
 "Assets/Scripts/Core/Enemy/EnemyView.cs"
 "Assets/Scripts/Core/Field/FieldController.cs"
-"Assets/Scripts/Core/InputController.cs"
+"Assets/Scripts/Core/MovementController.cs"
 "Assets/Scripts/Core/ScriptableObjects/CarData.cs"
 "Assets/Scripts/Core/ScriptableObjects/CarsDataHolder.cs"
 "Assets/Scripts/Core/ScriptableObjects/DtoInstaller.cs"

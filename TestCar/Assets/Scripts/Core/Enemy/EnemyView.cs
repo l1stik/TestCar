@@ -14,11 +14,11 @@ namespace Core.Enemy
         public UnityEvent<Collider> OnTriggerEnterEvent = new();
 
         [SerializeField] 
-        private float _healthBarOffset = 5f;
+        private float _healthBarOffset = 0f;
 
         public void InitView(HealthBarHolder healthBarHolder) {
             
-            _healthBar = Instantiate(healthBarHolder.BarPrefab, healthBarHolder.ParentForBar, false).GetComponent<HealthBar>();
+            _healthBar = Instantiate(healthBarHolder.BarPrefab).GetComponent<HealthBar>();
             _healthBar.transform.SetParent(healthBarHolder.ParentForBar);
             
             var position = transform.position;

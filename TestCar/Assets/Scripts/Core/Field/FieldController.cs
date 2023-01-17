@@ -27,7 +27,7 @@ namespace Core.Field
             var car = Instantiate(carData.CarPrefab);
             car.transform.position = _placeForSpawnCar.position;
             car.GetComponent<CarController>().Init();
-            _diContainer.InstantiateComponent<InputController>(car);
+            _diContainer.InstantiateComponent<MovementController>(car);
         }
         
         private void OnTriggerExit(Collider other) {

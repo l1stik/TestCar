@@ -3609,7 +3609,7 @@ MonoBehaviour:
   OnTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
-  _healthBarOffset: 5
+  _healthBarOffset: 0
 --- !u!65 &3542416884725692377
 BoxCollider:
   m_ObjectHideFlags: 0
