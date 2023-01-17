@@ -31,6 +31,10 @@ namespace Core.Ui
             _nextCarButton.onClick.AddListener(OnNextCarButtonClickInvoke);
         }
 
+        public void Hide() {
+            gameObject.SetActive(false);
+        }
+
         private void OnChooseCarButtonClickInvoke() 
         {
             OnChooseCarButtonClick?.Invoke();

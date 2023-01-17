@@ -1,6 +1,7 @@
-using System;
 using System.Collections.Generic;
+using Core.Ui;
 using UnityEngine;
+using Zenject;
 using Random = UnityEngine.Random;
 
 namespace Core.Enemy {
@@ -14,10 +15,8 @@ namespace Core.Enemy {
         
         private List<GameObject> _instancesEnemy = new();
 
-        private void Start() 
-        {
-            Generate();
-        }
+        [Inject]
+        private HealthBarHolder _healthBarHolder;
 
         public void Generate() 
         {
@@ -27,12 +26,14 @@ namespace Core.Enemy {
             for (var i = 0; i < count; i++) 
             {
                 var enemy = Instantiate(_enemyPrefab);
-                _instancesEnemy.Add(enemy);
+                var enemyController = enemy.GetComponent<EnemyController>();
+                enemyController.InitView(_healthBarHolder);
                 
+                _instancesEnemy.Add(enemy);
                 var randomPlaceNumber = Random.Range(0, places.Count);
                 var place = places[randomPlaceNumber];
                 
-                enemy.transform.position = place.transform.position + Vector3.up;
+                enemy.transform.position = place.transform.position;
                 
                 places.Remove(place);
             }

@@ -1,4 +1,4 @@
-using Core.Installers;
+using Core.DI.Installers;
 using UnityEngine;
 
 namespace Core.ScriptableObjects
